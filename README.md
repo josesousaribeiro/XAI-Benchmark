@@ -26,9 +26,9 @@ In the benchmark proposed by this research, the explanatory ranks of 6 different
 
 The methodology is presented in the diagram below:
 
-![alt text](http://url/to/img.png)
+![alt text](xai_benchmark/General_Info/metodologia.png)
 
-Note, all the information needed for a better understanding and reproducibility of the procedures performed in the research can be accessed directly on the notebook (Google Colab) available at root, as well as in the files folders.
+xai_benchmark/General_Info/metodologia.pngll the information needed for a better understanding and reproducibility of the procedures performed in the research can be accessed directly on the notebook (Google Colab) available at root, as well as in the files folders.
 
 
 
