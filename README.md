@@ -6,7 +6,7 @@ The research group responsible for this study is composed of:
 
 José Ribeiro - site: https://sites.google.com/view/jose-sousa-ribeiro
 
-Raissa Silva - site: https://sites.google.com/site/silvarailors
+Raíssa Silva - site: https://sites.google.com/site/silvarailors
 
 Ronnie Alves (Leader) - site: https://sites.google.com/site/alvesrco/
 
@@ -26,6 +26,7 @@ In the benchmark proposed by this research, the explanatory ranks of 6 different
 
 The methodology is presented in the diagram below:
 
+![alt text](http://url/to/img.png)
 
 
 
