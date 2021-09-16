@@ -4,7 +4,7 @@
 
 We inspected the graphs below and found 4 properties that best defined each cluster analyzed in an exclusive or even partially exclusive way. Below is a list justifying the reason for choosing or not each property, based on the plots in Figure 1.
 
-![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame (1).png)
+![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame(1).png)
 **Figure 1 - Frame with all properties plots.**
 
 **- AutoCorrelation:** Selected, even with the intersection of existing densities, there are important differences to be considered in the range of values ​​of the x axis.
