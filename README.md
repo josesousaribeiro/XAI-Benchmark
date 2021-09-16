@@ -1,4 +1,4 @@
-# Benchmark XAI 
+# XAI Benchmark 
 
 This repository has research analysis data for Explainable Artificial Intelligence - XAI.
 
