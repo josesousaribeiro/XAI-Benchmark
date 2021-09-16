@@ -8,6 +8,8 @@ José Ribeiro - site: https://sites.google.com/view/jose-sousa-ribeiro
 
 Raíssa Silva - site: https://sites.google.com/site/silvarailors
 
+Lucas Cardoso - site: http://lattes.cnpq.br/9591352011725008
+
 Ronnie Alves (Leader) - site: https://sites.google.com/site/alvesrco/
 
 **Abstract**
