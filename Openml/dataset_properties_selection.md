@@ -37,4 +37,5 @@ Seeking a better understanding of how the 15 properties characterize each of the
 
 **15 - MinorityClassPercentage:** Most of the datasets present in cluster 0 have high imbalances between classes.
 
-From the inspection analysis performed above, it can be inferred that cluster 0 datasets are more complex than cluster 1 datasets.
+
+**However, from the inspection analysis performed above, it can be inferred that cluster 0 datasets are more complex than cluster 1 datasets.**
