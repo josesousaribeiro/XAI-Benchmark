@@ -1,6 +1,6 @@
 
 
-## Description of dataset properties selection
+## Description of dataset properties by cluster
 
 We inspected the graphs below and found 4 properties that best defined each cluster analyzed in an exclusive or even partially exclusive way. Below is a list justifying the reason for choosing or not each property, based on the plots in Figure 1.
 
