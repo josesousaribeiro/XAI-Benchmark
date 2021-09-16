@@ -4,7 +4,7 @@
 
 Seeking a better understanding of how the 15 properties characterize each of the clusters. Fifteen graphs were created, which allow a clear understanding of how value ranges of different properties are presented in each of the clusters in quantitative terms, Figure 1.
 
-![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame.png)
+![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame_.png)
 **Figure 1 - Frame with all properties plots.**
 
 **1 - AutoCorrelation:** Existence of datasets with high values of autocorrelations in cluster 0 than in cluster 1. 
