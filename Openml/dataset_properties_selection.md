@@ -2,7 +2,7 @@
 
 ## Description of dataset properties by cluster
 
-We inspected the graphs below and found 4 properties that best defined each cluster analyzed in an exclusive or even partially exclusive way. Below is a list justifying the reason for choosing or not each property, based on the plots in Figure 1.
+Seeking a better understanding of how the 15 properties characterize each of the clusters. 15 graphs were created, which allow a clear understanding of how value ranges of different properties are presented in each of the clusters in quantitative terms, Figure 1.
 
 ![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame.png)
 **Figure 1 - Frame with all properties plots.**
