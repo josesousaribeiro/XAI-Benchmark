@@ -2,39 +2,37 @@
 
 ## Description of dataset properties by cluster
 
-Seeking a better understanding of how the 15 properties characterize each of the clusters. 15 graphs were created, which allow a clear understanding of how value ranges of different properties are presented in each of the clusters in quantitative terms, Figure 1.
+Seeking a better understanding of how the 15 properties characterize each of the clusters. Fifteen graphs were created, which allow a clear understanding of how value ranges of different properties are presented in each of the clusters in quantitative terms, Figure 1.
 
 ![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame.png)
 **Figure 1 - Frame with all properties plots.**
 
-**- AutoCorrelation:** Selected, even with the intersection of existing densities, there are important differences to be considered in the range of values ​​of the x axis.
+**- AutoCorrelation:** Note the existence of datasets with high values of autocorrelations in cluster 0 than in cluster 1. Indicating that cluster 0 has more complex datasets than cluster 1. 
 
-**- NumberOfInstances:** Not selected, because the two densities have very similar characteristics in both clusters. Since, they have the same range of values ​​in x.
+**- NumberOfInstances:** It is clear that this property did not present relevant differences in values for the two clusters.
 
-**- Dimensionality:** Not selected, because the two densities have very similar characteristics in both clusters. Since, they have the same range of values ​​in x.
+**- Dimensionality:** It is clear that this property did not present relevant differences in values for the two clusters.
 
-**- PercentageOfBinaryFeatures:** Not selected, because this property is calculated based on a percentage dependent on more than one other properties (such as number of attributes and number of binary attributes).
+**- PercentageOfBinaryFeatures:** Note that cluster 0 has a high number of datasets with few binary variables, different from cluster 1 datasets. 
 
-**- StdvNominalAttribute:** Not selected, as they have density values ​​centered in the same range of x values.
+**- StdvNominalAttribute:** It is noticed that the datasets present in cluster 1 present fixed values for this property, that is, they are more uniform in this perspective.
 
-**- MeanNominalAttDistinctValues:** Not selected, because they present density values ​​centered in the same range of values ​​in x.
+**- MeanNominalAttDistinctValues:** It is noticed that the datasets present in cluster 1 present fixed values for this property, that is, they are more uniform in this perspective.
 
-**- ClassEntropy:** Selected, even with the intersection of existing densities, there are important differences to be considered in the range of values ​​of the x axis.
+**- ClassEntropy:** It perceives the existence of a high number of datasets with high class entropy values ​​in cluster 1, indicating the existence of higher levels of information in these datasets. As for cluster 0, smaller values ​​are noted.
 
-**- NumberOfFeatures:** Selected, even with the intersection of existing densities, there are important differences to be considered in the range of values ​​of the x axis.
+**- NumberOfFeatures:** It is noticed the existence of a greater number of datasets with smaller quantitative attributes in cluster 1 than in cluster 0. This indicates that the datasets in cluster 1 are smaller and thus less complex.
 
-**- NumberofNumericFeatures:** Not selected, as it is almost directly proportional to the NumberOfFeatures property.
+**- NumberofNumericFeatures:** 
 
-**- NumberOfSymbolicFeatures:** Not selected, as they have density values ​​centered on the same range of x values.
+**- NumberOfSymbolicFeatures:** 
 
-**- NumberOfBinaryFeatures:** Not selected, as they have density values ​​centered on a similar range of x values.
+**- NumberOfBinaryFeatures:** 
 
-**- PercentageOfSymbolicFeatures:** Not selected, because this property is calculated based on a percentage dependent on more than one other properties (such as number of attributes and number of symbolic attributes).
+**- PercentageOfSymbolicFeatures:** 
 
-**- PercentageOfNumericFeatures:** Not selected, because this property is calculated based on a percentage dependent on more than one other property (such as number of attributes and number of numerical attributes).
+**- PercentageOfNumericFeatures:** 
 
-**- MajorityClassPercentage:** Selected, due to important differences in value ranges unique to each cluster, observed on the x-axis.
+**- MajorityClassPercentage:** 
 
-**- MinorityClassPercentage:** Not selected, as it is inversely proportional to MajorityClassPercentage.
-
-
+**- MinorityClassPercentage:** 
