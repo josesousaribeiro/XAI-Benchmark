@@ -43,4 +43,4 @@ The results found in the inspection of the graphs in Figure 1 were consolidated 
 ![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/mca_dataset_properties.png)
 **Figure 2 - Multiple Correspondence Analysis - MCA with rows (datasets) and columns (properties) depending on the first and second PCA components.**
 
-**However, from the inspection analysis performed above, it can be inferred that cluster 0 datasets are more complex than cluster 1 datasets.**
+**However, from the inspection analysis and the MCA performed above, it can be inferred that cluster 0 datasets are more complex than cluster 1 datasets.**
