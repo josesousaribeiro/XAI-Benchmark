@@ -37,5 +37,8 @@ Seeking a better understanding of how the 15 properties characterize each of the
 
 **15 - MinorityClassPercentage:** Most of the datasets present in cluster 0 have high imbalances between classes.
 
+![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/mca_dataset_properties.png)
+**Figure 2 - Multiple Correspondence Analysis - MCA with rows (datasets) and columns (properties) depending on the first and second PCA components.**
+
 
 **However, from the inspection analysis performed above, it can be inferred that cluster 0 datasets are more complex than cluster 1 datasets.**
