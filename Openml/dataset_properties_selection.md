@@ -2,10 +2,14 @@
 
 ## Description of dataset properties by cluster
 
-Seeking a better understanding of how the 15 properties characterize each of the clusters. Fifteen graphs were created, which allow a clear understanding of how value ranges of different properties are presented in each of the clusters in quantitative terms, Figure 1.
+Seeking to better understand the characteristic of each dataset cluster found from its 15 properties analyzed, this research performed initial analyzes by inspecting the value ranges of each of the properties in each cluster (Figure 1), as well as performing analysis through Multiple Correspondence Analysis – MCA in order to identify which dataset property values best characterized each cluster found.
+
+Through inspection analysis, it was possible to verify different distributions of property value ranges for each of the two main clusters. The result is shown in Figure 1.
 
 ![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame_.png)
-**Figure 1 - Frame with all properties plots.**
+**Figure 1 - Dataset properties for each cluster.**
+
+Each inspection analysis found on each property in Figure 1 is listed below.
 
 **1 - AutoCorrelation:** Existence of datasets with high values of autocorrelations in cluster 0 than in cluster 1. 
 
@@ -38,9 +42,20 @@ Seeking a better understanding of how the 15 properties characterize each of the
 **15 - MinorityClassPercentage:** Most of the datasets present in cluster 0 have high imbalances between classes.
 
 
-The results found in the inspection of the graphs in Figure 1 were consolidated by the results found by the Multiple Correspondence Analysis - MCA according to the literature. With this, the MCA was performed and its results were related to different ranges of values of each property (columns) with the datasets (rows), Figure 2.
+From the above, it can be inferred that cluster 0 has datasets with greater complexity than the datasets present in cluster 1. However, aiming to consolidate this finding, an MCA was performed in order to identify which properties each dataset cluster has higher ratio.
+
+Note, to perform this analysis the [values of each of the 15 properties](blob/main/Openml/df_dataset_properties.csv) of the datasets had to be converted to binary. With this, each value of the 15 properties were replaced by 'h' (equal to or above the mean of attribute values) and 's' (below the mean of attribute values), according to the literature itself.
+
+A summary of the relationships found through MCA can be seen in Figure 2.
 
 ![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/mca_dataset_properties.png)
 **Figure 2 - Multiple Correspondence Analysis - MCA with rows (datasets) and columns (properties) depending on the first and second PCA components.**
 
-**However, from the inspection analysis and the MCA performed above, it can be inferred that cluster 0 datasets are more complex than cluster 1 datasets.**
+In Figure 2, the existence of the three clusters identified in the research can be clearly seen (remembering that cluster 2 was discarded due to the small number of datasets).
+
+In the MCA shown in Figure 2, we can see a relationship of datasets in cluster 0 with values ​​above average (symbol 'h') for properties such as 'AutoCorrelation', 'NumberOfFeatures', 'PercentageOfNumericFeatures', 'NumberOfNumericFeatures', 'NumberOfInstances' , 'Dimensionality', and 'MajorityClassPercentage'. As well, it is also noticed a relation of datasets of cluster 0 with values ​​below the average (symbol 's') for properties like 'ClassEntropy' and 'MinorityClassPercentage'.
+
+Also with regard to the MCA shown in Figure 2, it is possible to assess the existence of a relationship of datasets in cluster 1 with average values ​​above the average (symbol 'h') for properties such as 'ClassEntropy', 'PercentageOfSymbolocFeatures', 'PercentageOfBinaryFeatures ', and 'MinorityClassPercentage'. It is also possible to identify a relation of datasets in cluster 1 with values ​​below average (symbol 's') for the properties 'AutoCorrelation','NumberOfFeatures', 'PercentageOfNumericFeatures', 'NumberOfNumericFeatures', 'NumberOfInstances', 'Dimensionality' , and 'MajorityClassPercentage'.
+
+**However, from the analysis by inspection and also from the MCA, it is concluded that cluster 0 is formed by datasets with greater complexities, whereas cluster 1 is characterized by datasets with lesser complexities.**
+
