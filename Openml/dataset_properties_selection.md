@@ -44,7 +44,7 @@ Each inspection analysis found on each property in Figure 1 is listed below.
 
 From the above, it can be inferred that cluster 0 has datasets with greater complexity than the datasets present in cluster 1. However, aiming to consolidate this finding, an MCA was performed in order to identify which properties each dataset cluster has higher ratio.
 
-Note, to perform this analysis the [values of each of the 15 properties](blob/main/Openml/df_dataset_properties.csv) of the datasets had to be converted to binary. With this, each value of the 15 properties were replaced by 'h' (equal to or above the mean of attribute values) and 's' (below the mean of attribute values), according to the literature itself.
+Note, to perform this analysis the [values of each of the 15 properties](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/df_dataset_properties.csv) of the datasets had to be converted to binary. With this, each value of the 15 properties were replaced by 'h' (equal to or above the mean of attribute values) and 's' (below the mean of attribute values), according to the literature itself.
 
 A summary of the relationships found through MCA can be seen in Figure 2.
 
