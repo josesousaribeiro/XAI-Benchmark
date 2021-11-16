@@ -8,7 +8,7 @@ To identify each different dataset profile, an inspection of the value ranges of
 
 Through inspection analysis, it was possible to verify different distributions of property value ranges for each of the two main clusters. The result is shown in Figure 1.
 
-![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Openml/full_properties_by_cluster_in_frame_.png)
+![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/full_properties_by_cluster_in_frame_.png)
 **Figure 1 - Dataset properties for each cluster.**
 
 Each inspection analysis found on each property in Figure 1 is listed below.
