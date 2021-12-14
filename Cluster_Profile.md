@@ -4,7 +4,7 @@
 
 Seeking to better understand the characteristic of each dataset cluster found from its 15 properties analyzed, this research performed initial analyzes by inspecting the value ranges of each of the properties in each cluster (Figure 1), as well as performing analysis through Multiple Correspondence Analysis – MCA in order to identify which dataset property values best characterized each cluster found.
 
-To identify each different dataset profile, an inspection of the value ranges of each cluster for each property was carried out. In this analysis, the possible existence of specific property values for datasets of specific clusters was verified. At this stage, it was identified that the quantity of datasets in cluster 2 had a small $n$ and, therefore, this cluster was disregarded from these results (The datasets for this cluster are: \textit{kr-vs-kp, Phishing Web sites,} and \textit{SPECT}). Keeping only clusters 0 and 1.
+To identify each different dataset profile, an inspection of the value ranges of each cluster for each property was carried out. In this analysis, the possible existence of specific property values for datasets of specific clusters was verified. At this stage, it was identified that the quantity of datasets in cluster 2 had a small _n_ and, therefore, this cluster was disregarded from these results (The datasets for this cluster are: _kr-vs-kp, Phishing Web sites, and SPECT_). Keeping only clusters 0 and 1.
 
 Through inspection analysis, it was possible to verify different distributions of property value ranges for each of the two main clusters. The result is shown in Figure 1.
 
@@ -57,9 +57,12 @@ In Figure 2, the existence of the three clusters identified in the research can 
 
 In the MCA shown in Figure 2,by inspection, it is notable the relationship (shorter distances) of high quantity of datasets in cluster 0 with values above average (symbol h) for properties (bigger circles) such as _MajorityClassPercentage, Dimensionality, NumberOfInstances, NumberOfFeatures, PercentageOfNumericFeatures_ and _AutoCorrelation_. As well, it is also noticed a relation of high quantity of datasets of cluster 0 with values below the average (symbol s) for properties such as _ClassEntropy, PercentageOfSymbolicFeatures_ and _PercentageOfBinaryFeatures_.
 
-Also with regard to the MCA shown in Figure 2, by inspection, it is possible to assess the existence of a relationship (shorter distances) of high quantity of datasets in cluster 1 with values above the average (symbol h) for properties (bigger circles) such as ClassEntropy, PercentageOfSymbolocFeatures, PercentageOfBinaryFeatures, NumberOfBinaryFeatures and MinorityClassPercentage. It is also possible to identify a relation of high quantity of datasets in cluster 1 with values below average (symbol s) for properties sush as _AutoCorrelation,NumberOfFeatures, PercentageOfNumericFeatures, NumberOfNumericFeatures, NumberOfInstances, Dimensionality,_ and _MajorityClassPercentage._
+Also with regard to the MCA shown in Figure 2, by inspection, it is possible to assess the existence of a relationship (shorter distances) of high quantity of datasets in cluster 1 with values above the average (symbol h) for properties (bigger circles) such as ClassEntropy, PercentageOfSymbolocFeatures, PercentageOfBinaryFeatures, NumberOfBinaryFeatures and MinorityClassPercentage. It is also possible to identify a relation of high quantity of datasets in cluster 1 with values below average (symbol s) for properties sush as _AutoCorrelation,NumberOfFeatures, PercentageOfNumericFeatures, NumberOfNumericFeatures, NumberOfInstances, Dimensionality,_ and _MajorityClassPercentage_.
 
 Note, some properties were not mentioned above because they appear at very close distances for the two dataset clusters.
 
-**However, from the inspection of MCA's results, it is concluded that cluster 0 is formed by significant amount of datasets with greater complexities, whereas cluster 1 is formed by significant amount of datasets with minors complexities.**
+Based on the above, this research find the relationships summarized in Figure 3.
+
+![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/resume_of_properties_relation.png)
+**Figure 3 - Resume of MCA inspection.**
 
