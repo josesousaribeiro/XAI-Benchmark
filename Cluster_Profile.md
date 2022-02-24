@@ -63,6 +63,6 @@ Note, some properties were not mentioned above because they appear at very close
 
 Based on the above, this research find the relationships summarized in Figure 3.
 
-![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/resume_of_properties_relation.png)
+![alt text](https://github.com/josesousaribeiro/XAI-Benchmark/blob/main/Figures/resume_of_properties_relation_new.png)
 **Figure 3 - Resume of MCA inspection.**
 
