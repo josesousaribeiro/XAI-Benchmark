@@ -33,6 +33,19 @@ The methodology is presented in the diagram below:
 All the information needed for a better understanding and reproducibility of the procedures performed in the research can be accessed directly on the notebook (Google Colab) available at root, as well as in the files folders.
 
 
+**Cite this work**
+
+```latex
+
+@inproceedings{ribeiro2021does,
+  title={Does Dataset Complexity Matters for Model Explainers?},
+  author={Ribeiro, Jos{\'e} and Silva, Ra{\'\i}ssa and Cardoso, Lucas and Alves, Ronnie},
+  booktitle={2021 IEEE International Conference on Big Data (Big Data)},
+  pages={5257--5265},
+  year={2021},
+  organization={IEEE}
+}
+```
 
 
 
